@@ -651,7 +651,6 @@ article.type-system-sans {
         font-size: 1.4em; } }
   /* line 47, /Users/davejachimiak/github/vega-webrtc-website/source/stylesheets/sass/_try_it.scss */
   article.type-system-sans code {
-    white-space: nowrap;
     font-family: monaco;
     background: #F7F7F7;
     border: 1px solid #E0E0E0;
@@ -659,7 +658,7 @@ article.type-system-sans {
     padding: .1em .4em;
     font-size: .65em;
     font-style: normal; }
-  /* line 58, /Users/davejachimiak/github/vega-webrtc-website/source/stylesheets/sass/_try_it.scss */
+  /* line 57, /Users/davejachimiak/github/vega-webrtc-website/source/stylesheets/sass/_try_it.scss */
   article.type-system-sans h3 {
     font-family: "Roboto Slab", sans-serif;
     font-size: 1em;
@@ -668,28 +667,28 @@ article.type-system-sans {
     text-transform: uppercase;
     line-height: 1.4em;
     margin-bottom: .5em; }
-  /* line 68, /Users/davejachimiak/github/vega-webrtc-website/source/stylesheets/sass/_try_it.scss */
+  /* line 67, /Users/davejachimiak/github/vega-webrtc-website/source/stylesheets/sass/_try_it.scss */
   article.type-system-sans p.date {
     color: rgba(51, 51, 51, 0.4);
     font-family: "Open Sans", sans-serif;
     font-size: .8em;
     margin-bottom: .5em; }
-  /* line 75, /Users/davejachimiak/github/vega-webrtc-website/source/stylesheets/sass/_try_it.scss */
+  /* line 74, /Users/davejachimiak/github/vega-webrtc-website/source/stylesheets/sass/_try_it.scss */
   article.type-system-sans p {
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
     letter-spacing: 1;
     margin-bottom: 1.5em; }
-    /* line 81, /Users/davejachimiak/github/vega-webrtc-website/source/stylesheets/sass/_try_it.scss */
+    /* line 80, /Users/davejachimiak/github/vega-webrtc-website/source/stylesheets/sass/_try_it.scss */
     article.type-system-sans p span {
       font-family: "Open Sans", sans-serif;
       font-weight: 600;
       font-size: .8em;
       text-transform: uppercase; }
-  /* line 89, /Users/davejachimiak/github/vega-webrtc-website/source/stylesheets/sass/_try_it.scss */
+  /* line 88, /Users/davejachimiak/github/vega-webrtc-website/source/stylesheets/sass/_try_it.scss */
   article.type-system-sans hr {
     width: 3em; }
-  /* line 93, /Users/davejachimiak/github/vega-webrtc-website/source/stylesheets/sass/_try_it.scss */
+  /* line 92, /Users/davejachimiak/github/vega-webrtc-website/source/stylesheets/sass/_try_it.scss */
   article.type-system-sans a.read-more {
     display: inline-block;
     font-family: "Open Sans", sans-serif;
@@ -698,13 +697,13 @@ article.type-system-sans {
     text-transform: uppercase;
     margin-left: .2em;
     position: relative; }
-    /* line 102, /Users/davejachimiak/github/vega-webrtc-website/source/stylesheets/sass/_try_it.scss */
+    /* line 101, /Users/davejachimiak/github/vega-webrtc-website/source/stylesheets/sass/_try_it.scss */
     article.type-system-sans a.read-more span {
       position: absolute;
       font-size: 1.7em;
       top: -2px;
       right: -10px; }
-  /* line 110, /Users/davejachimiak/github/vega-webrtc-website/source/stylesheets/sass/_try_it.scss */
+  /* line 109, /Users/davejachimiak/github/vega-webrtc-website/source/stylesheets/sass/_try_it.scss */
   article.type-system-sans p.author {
     font-family: "Open Sans", sans-serif;
     font-style: italic; }
