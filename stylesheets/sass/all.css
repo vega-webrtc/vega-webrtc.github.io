@@ -701,7 +701,8 @@ article.type-system-sans {
     font-style: italic; }
   /* line 104, /Users/davejachimiak/vega/vega-webrtc-website/source/stylesheets/sass/_try_it.scss */
   article.type-system-sans pre[class*="language-"] {
-    padding: 1.25em 1em 0; }
-  /* line 108, /Users/davejachimiak/vega/vega-webrtc-website/source/stylesheets/sass/_try_it.scss */
+    padding: 1.25em 1em 0;
+    margin-bottom: 1.5em; }
+  /* line 109, /Users/davejachimiak/vega/vega-webrtc-website/source/stylesheets/sass/_try_it.scss */
   article.type-system-sans code.old-code {
     color: silver; }
