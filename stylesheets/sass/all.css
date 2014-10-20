@@ -433,12 +433,13 @@ div.guides-accordion {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 23.23176%; }
+  width: 23.23176%;
+  padding: 2em; }
   /* line 38, /Users/davejachimiak/vega/vega-webrtc-website/source/stylesheets/neat/grid/_span-columns.scss */
   div.guides-accordion:last-child {
     margin-right: 0; }
 
-/* line 5, /Users/davejachimiak/vega/vega-webrtc-website/source/stylesheets/sass/_guides.scss */
+/* line 6, /Users/davejachimiak/vega/vega-webrtc-website/source/stylesheets/sass/_guides.scss */
 div.guide-wrapper {
   float: left;
   display: block;
@@ -448,6 +449,9 @@ div.guide-wrapper {
   /* line 38, /Users/davejachimiak/vega/vega-webrtc-website/source/stylesheets/neat/grid/_span-columns.scss */
   div.guide-wrapper:last-child {
     margin-right: 0; }
+  /* line 10, /Users/davejachimiak/vega/vega-webrtc-website/source/stylesheets/sass/_guides.scss */
+  div.guide-wrapper .type-system-sans {
+    width: 80%; }
 
 /* line 1, /Users/davejachimiak/vega/vega-webrtc-website/source/stylesheets/sass/_layout.scss */
 .centered-navigation {

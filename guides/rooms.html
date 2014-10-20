@@ -15,7 +15,7 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700' rel='stylesheet' type='text/css'>
   </head>
   
-  <body class="guides guides_index">
+  <body class="guides guides_rooms">
     <header class="centered-navigation">
       <div class="centered-navigation-wrapper">
         <a href="javascript:void(0)" class="mobile-logo">
@@ -63,18 +63,45 @@
 
   <div class="guide-wrapper">
     <article class="type-system-sans">
-      <h1>Welcome to the Vega WebRTC guides!</h1>
+      <p class="type">room IDs</p>
+
+<h1>Introduction</h1>
+
+<h2>
+  Room IDs are how your application's users create peer connections with each
+  other.
+</h2>
 
 <p>
-  Here you will find some general info you might find useful to build
-  peer-to-peer applications with Vega WebRTC tools.
+  It's pretty simple: Peers get into the same room if they pass the same
+  <code>roomId</code> into the Vega Prime constructor. Take, for example, Bob's
+  Vega Prime instance.
 </p>
 
+<pre>
+<code class="language-javascript">// Bob's Vega Prime instance
+
+new VegaPrime({
+  url: 'wss://my-secure-vega-server.com',
+  roomId: 'abc123',
+  badge: {}
+});
+</code>
+</pre>
+
 <p>
-  If you think anything can be added here, feel free to open a pull request to
-  <a href="https://github.com/vega-webrtc/vega-webrtc-website">this website's
-  githhub repository.</a>
+  If Nancy wanted to create a peer connection with Bob, her browser's
+  JavaScript must instantiate VegaPrime with a <code>roomId</code> of 'abc123'.
 </p>
+
+<h1 id="room-patterns">Patterns</h1>
+
+<h2>
+  Next, there are a few patterns that could help you think of how to get peers
+  in the same room.
+</h2>
+
+<h3 id="party-pattern">It's a party and everyone's invited!</h3>
 
     </article>
   </div>
